@@ -1,0 +1,71 @@
+/* 1 */
+{
+    "_id" : ObjectId("5987c90beab28fa60427e8e7"),
+    "number" : "123131",
+    "airline" : "AZUL",
+    "pilot" : "Bruno Santiago",
+    "status" : "CONFIRMED",
+    "origin" : {
+        "name" : "Guarulhos",
+        "country" : "Brasil"
+    },
+    "destiny" : {
+        "name" : "Paris",
+        "country" : "France"
+    },
+    "aircraft" : {
+        "model" : "E190",
+        "name" : "EMBRAER RJ 190",
+        "code" : "EPR-001"
+    },
+    "match" : ISODate("2017-08-06T08:20:46.503Z"),
+    "arrival" : ISODate("2017-08-06T17:20:46.503Z")
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5987c90beab28fa60427e8e1"),
+    "number" : "GOL-1002",
+    "airline" : "GOL",
+    "pilot" : "Bruno Santiago",
+    "status" : "DISPATCH_OPEN",
+    "origin" : {
+        "name" : "Guarulhos",
+        "country" : "Brasil"
+    },
+    "destiny" : {
+        "name" : "Paris",
+        "country" : "France"
+    },
+    "aircraft" : {
+        "model" : "E170",
+        "name" : "EMBRAER RJ 170",
+        "code" : "EPR-101"
+    },
+    "match" : ISODate("2017-08-06T08:20:46.503Z"),
+    "arrival" : ISODate("2017-08-06T17:20:46.503Z")
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5987c90beab28fa60427e8e2"),
+    "number" : "AVI-001",
+    "airline" : "AVIANCA",
+    "pilot" : "Bruno Santiago",
+    "status" : "NEXT_BOARDING",
+    "destiny" : {
+        "name" : "Guarulhos",
+        "country" : "Brasil"
+    },
+    "origin" : {
+        "name" : "Paris",
+        "country" : "France"
+    },
+    "aircraft" : {
+        "model" : "E195",
+        "name" : "EMBRAER RJ 195",
+        "code" : "EPR-1001"
+    },
+    "match" : ISODate("2017-08-06T08:20:46.503Z"),
+    "arrival" : ISODate("2017-08-06T17:20:46.503Z")
+}

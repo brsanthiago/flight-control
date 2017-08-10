@@ -1,0 +1,26 @@
+<input type="text" #txtFilter (keyup)="-1" placeholder="Search Flight Number "/>
+<table>
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th>Airline</th>
+      <th>Origin</th>
+      <th>Destiny</th>
+      <th>Match</th>
+      <th>Arrival</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let flight of (flights ); let i=index">
+      <td>{{flight.number}}</td>
+      <td>{{flight.airline}}</td>
+      <td>{{flight.origin.name}}</td>
+      <td>{{flight.destiny.name}}</td>
+      <td>{{flight.match | date: 'short'}}</td>
+      <td>{{flight.arrival | date: 'short'}}</td>
+      <td>{{flight.status  }}</td>
+    </tr>
+  </tbody>
+</table>
