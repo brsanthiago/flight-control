@@ -16,3 +16,7 @@ Waiting dependencies installation and serve the application running `ng serve`
 
 ## Initial Database
 Database is created automatically during runing application
+
+
+## API Usage
+Run flight-api `mvn spring-boot:run` and open Swagger Documentation `http://localhost:8181/swagger-ui.html`
